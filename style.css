@@ -1,0 +1,72 @@
+#header{
+    width:50%;
+    height:100px;
+    float:left;
+}
+
+#menu{
+    width:50%;
+    float:right;
+    height:100px;
+}
+
+#content{
+    margin-left: 10%;
+    width: 80%;
+    padding-bottom:10px;
+    float:left;
+}
+
+#sila_znanij {
+    padding-bottom:15%;
+    padding-top:9%;
+}
+
+#menu_points {
+    float:right;
+    margin:10px;
+}
+
+#inst{
+    background-image:url('images/steklo.png');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    padding:11%;
+    height:800px;
+    
+}
+
+#texts { 
+   position:relative;
+   top:50px;
+   width:65%;
+   float:left;    
+}
+
+#texts1 { 
+   position:relative;
+   top:50px;
+   float:right;
+   width:35%; 
+    
+}
+
+#kluch { 
+   position:relative;
+   top:100px;
+   float:right;
+   width:60%; 
+    
+}
+
+#footer{
+    width:100%;
+    height:300px;
+    float:left;
+    padding-top:90px;
+}
+
+#test_table_font {
+    font-size:25px;
+}
+
