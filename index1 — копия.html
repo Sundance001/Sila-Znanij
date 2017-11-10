@@ -1,7 +1,7 @@
 <html>
   <head>
     <link type="text/css" rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
       <title>Список тестов - Сила знаний</title>
   </head>
   <body bgcolor="black" text="white" link="white" leftmargin="100" topmargin="50" rightmargin="50" bottommargin="50"
@@ -34,48 +34,32 @@
          <b>Список тестов</b>
         
      <!-- эта таблица отвечает за список тестов -->
-
-       <br>
-<br>
-<br>
-     <table id="test_table_font" width="90%" cellpadding="5%" style="background-image: url('images/steklo.png');
-					        background-size:100% 100%;">
-       <tbody>
-         <tr><td style="height: 700px">
-           <ul>
-	     <li>Английский язык
-	       <ol>
-	         <li><a href="https://goo.gl/forms/2KVEIUpxJWsEE8V32">Глагол to be в прошедшем простом времени</a></li>
-	         <li><a href="https://goo.gl/forms/HtDYUDhg2OBPMy4G2">Типы вопросов</a></li>
-	       </ol>
-	     </li>
-<br>
-	    <li>Математика
-	      <ol>
-	        <li><a href="https://goo.gl/forms/PO4n0CDszUi9C26d2">Основные формулы геометрии за 8 класс</a></li>
-	        <li><a href="https://goo.gl/forms/lg1dD4zvReWPvQXk1">Квадратные уравнения</a></li>
-	      </ol>
-	    </li>
-<br>
-	    <li>Физика
-	      <ol>
-	        <li><a href="https://goo.gl/forms/5t8jHHADC83GTPlE3">Световые явления</a></li>
-	        <li><a href="https://goo.gl/forms/V79v2nA3btLxqYfh2">Последовательное соединение проводников</a></li>
-	      </ol>
-	    </li>
-<br>
-	    <li>Биология
-	      <ol>
-	        <li><a href="https://goo.gl/forms/iiabkgTNSvYW0M0o1">Обмен веществ. Витамины</a></li>
-	        <li><a href="https://goo.gl/forms/oRUSH9wxNH4oJFpG3">Строение и функции кожи</a></li>
-	      </ol>
-	    </li>
-	  </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
- </p>
+     <div id="tests_block">
+     <div id="main_menu">
+        <a href="#" onMouseOver="show_english_tests();">Английский язык</a>
+        <a href="#" onMouseOver="show_math_tests();">Математика</a>
+        <a href="#" onMouseOver="show_physics_tests();">Физика</a>
+        <a href="#" onMouseOver="show_biology_tests();">Биология</a>
+      </div>
+      <div id="additional_menu">
+      <div id="english">
+         <a href="https://goo.gl/forms/2KVEIUpxJWsEE8V32">Глагол to be в прошедшем простом времени</a>
+	 <a href="https://goo.gl/forms/HtDYUDhg2OBPMy4G2">Типы вопросов</a>
+      </div>
+      <div id="math">
+         <a href="https://goo.gl/forms/PO4n0CDszUi9C26d2">Основные формулы геометрии за 8 класс</a>
+         <a href="https://goo.gl/forms/lg1dD4zvReWPvQXk1">Квадратные уравнения</a>
+      </div>
+      <div id="physics">
+        <a href="https://goo.gl/forms/5t8jHHADC83GTPlE3">Световые явления</a></li>
+        <a href="https://goo.gl/forms/V79v2nA3btLxqYfh2">Последовательное соединение проводников</a>
+      </div>
+      <div id="biology">
+        <a href="https://goo.gl/forms/iiabkgTNSvYW0M0o1">Обмен веществ. Витамины</a>
+        <a href="https://goo.gl/forms/oRUSH9wxNH4oJFpG3">Строение и функции кожи</a>
+      </div>
+      </div>     
+     </div>
      </div>
 
      <!-- этот блок отвечает за подвал --> 

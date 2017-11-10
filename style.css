@@ -2,12 +2,14 @@
     width:50%;
     height:100px;
     float:left;
+    al;
 }
 
 #menu{
     width:50%;
     float:right;
     height:100px;
+    
 }
 
 #content{
@@ -21,13 +23,28 @@
     padding-bottom:15%;
     padding-top:9%;
 }
-
 #menu_points {
     float:right;
     margin:10px;
+    font-size:20;
+    font-family:Arial;
+    font-weight:bold;
+    text-align:center;
+    
+ 
 }
 
-#inst{
+a:link {
+     color:white;
+}
+a:visited {
+     color:white;
+}
+a:hover {
+     color:white;
+}
+
+#inst, #tests_block{
     background-image:url('images/steklo.png');
     background-repeat:no-repeat;
     background-size:100% 100%;
@@ -64,9 +81,78 @@
     height:300px;
     float:left;
     padding-top:90px;
+    
 }
 
 #test_table_font {
     font-size:25px;
+}
+
+#inform {
+    height:50%;
+}
+
+#footer1 {
+    font-size:20;
+    font-family:Arial;
+    font-weight:bold;   
+}
+
+ <!-- Этот блок отвечает за внешний вид меню -->
+
+#tests_block a{
+ color:white;
+ text-decoration:none;
+ display:block;
+}
+#tests_block a:hover{
+ color:white;
+ text-decoration:underline;
+ display:block;
+}
+
+#english, #math, #physics, #biology{
+ visibility:hidden;
+ position:relative;
+ left:50px;
+ top:25px;
+}
+
+#english {
+ z-index:1;
+}
+#math {
+ z-index:2;
+}
+#physics {
+ z-index:3;
+}
+#biology {
+ z-index:4;
+}
+
+#english a, #math a, #physics a, #biology a{
+display:block;
+color:white;
+text-decoration:none;
+}
+#english a:hover, #math a:hover, #physics a:hover, #biology a:hover{
+display:block;
+color:red;
+text-decoration:underline;
+}
+
+#main_menu {
+   width:50%;
+   float:left;
+   font-size:17;
+   display:block;
+}
+
+#additional_menu {
+  width:50%;
+  float:right;
+  font-size:17;
+  display:block;
 }
 
