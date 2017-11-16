@@ -1,3 +1,8 @@
+#fon {
+    background-image: url('images/fon.jpg');
+    background-size:cover;
+}
+
 #header{
     width:50%;
     height:100px;
@@ -15,13 +20,23 @@
 #content{
     margin-left: 10%;
     width: 80%;
-    padding-bottom:10px;
+    padding-bottom:20px;
     float:left;
 }
 
+#list_of_tests {
+    text-align:center;
+    font-size:85;
+    font-weight:bold;
+    padding-bottom:20%;
+    padding-top:12%;
+    color:LightGray;
+    
+}
+
 #sila_znanij {
-    padding-bottom:15%;
-    padding-top:9%;
+    padding-bottom:18%;
+    padding-top:12%;
 }
 #menu_points {
     float:right;
@@ -34,22 +49,12 @@
  
 }
 
-a:link {
-     color:white;
-}
-a:visited {
-     color:white;
-}
-a:hover {
-     color:white;
-}
-
 #inst, #tests_block{
     background-image:url('images/steklo.png');
     background-repeat:no-repeat;
     background-size:100% 100%;
     padding:11%;
-    height:800px;
+    height:900px;
     
 }
 
@@ -80,8 +85,16 @@ a:hover {
     width:100%;
     height:300px;
     float:left;
-    padding-top:90px;
+    padding-top:120px;
+    text-align:center;
     
+}
+
+#footer1 {
+    font-size:22;
+    font-family:Arial;
+    font-weight:bold;
+    color:Silver;   
 }
 
 #test_table_font {
@@ -92,10 +105,14 @@ a:hover {
     height:50%;
 }
 
-#footer1 {
-    font-size:20;
-    font-family:Arial;
-    font-weight:bold;   
+a:link {
+     color:white;
+}
+a:visited {
+     color:white;
+}
+a:hover {
+     color:white;
 }
 
  <!-- Этот блок отвечает за внешний вид меню -->
@@ -156,3 +173,7 @@ text-decoration:underline;
   display:block;
 }
 
+
+#profile {
+  font-size:100;
+}

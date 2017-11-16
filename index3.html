@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title>Главная - Сила знаний</title>
+      <link type="text/css" rel="stylesheet" href="style.css"> 
+  </head>
+
+  <body id="fon" background="black" text="white" link="white" leftmargin="100" topmargin="50" rightmargin="50" bottommargin="50">
+
+    <!-- этот блок отвечает за шапку(логотип) -->
+
+    <div id="header"><img src="images/1.svg" width="30%"></img></div>
+ 
+    <!-- этот блок отвечает за меню -->
+    <div id="menu">
+      <div id="menu_points"><a href="http://xn--80aaucdgjsb7a.xn--b1aym.xn--90ais/#footer">O нас</a></div>
+      <div id="menu_points"><a href="http://xn--80aaucdgjsb7a.xn--b1aym.xn--90ais/#texts">Призы</a></div>
+      <div id="menu_points"><a href="http://xn--80aaucdgjsb7a.xn--b1aym.xn--90ais/#inst">Как это работает?</a></div>
+    </div>
+
+    <!-- этот блок отвечает за контент -->
+
+    <div id="content">
+      <div id="profile"><p align="center">Анкета</div>
+      <!-- этот блок отвечает за анкету -->
+
+      <div id="inst">
+        <div>
+        <form name="profile">
+          <fieldset>
+            <legend>Данные о пользователе</legend>
+            Имя:<br><input type="text" name="firstname"><br>
+            Фамилия:<br><input type="text" name="lastname"><br>
+            Отчество:<br><input type="text" name="lastname"><br>
+            <p>Укажите Ваш пол:</p>
+            <input type="radio" name="s" value="m"> Мужской<br>
+            <input type="radio" name="s" value="f"> Женский<br>
+            <p>Введите e-mail:</p>
+            <input type="email" name="e-mail"><br>
+            <p>Создайте пароль</p>
+            <input type="password" name="password"><br>
+            <p>Вставьте ваше изображение:</p>
+            <input type="file" name="f" multiple accept="image/*,image/jpeg"><br><br>
+            <input type="submit" value="Отправить">
+           </fieldset><br>
+         <fieldset>
+           <legend>Информация о интересах</legend>
+           <p>Чем вы увлекаетесь?</p>
+           <input type="checkbox" name="hobbi">Игры<br>
+           <input type="checkbox" name="hobbi">Рисование<br>
+           <input type="checkbox" name="hobbi">Музыка<br>
+           <input type="checkbox" name="hobbi">Компьютеры<br>
+
+           <p>Какие книги любите читать?</p>
+           <p>Вы можете выбрать несколько выриантов зажав клавишу "Shift"</p>
+           <select name="hobbi" multiple='multiple'>
+             <option name="hobbi">Фантастика</option><br>
+             <option name="hobbi">Приключения</option><br>
+             <option name="hobbi">Исторические книги</option><br>
+             <option name="hobbi">Научные книги</option><br>
+          </select>
+        </fieldset><br>
+        <p align="center"><a href="#"><font size="10">Отправить</font></a>
+        </form>
+        </div>
+      </div>
+    </div>
+    
+    <!-- этот блок отвечает за подвал --> 
+    
+    <div id="footer">
+      <div id="footer1"><a href="index2.html">О проекте</a></div><br>
+      <div id="footer1">Проект сделан для школы №89, при поддержке ПВТ</div><br>
+      <div id="footer1">Проект сделан в рамках Java курсов</div>    
+    </div>
+  </body>
+</html>
