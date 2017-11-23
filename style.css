@@ -1,6 +1,9 @@
 #fon {
     background-image: url('images/fon.jpg');
     background-size:cover;
+    text: white;
+    background-color: black;
+  
 }
 
 #header{
@@ -26,11 +29,11 @@
 
 #list_of_tests {
     text-align:center;
-    font-size:85;
+    font-size:70;
     font-weight:bold;
     padding-bottom:20%;
     padding-top:12%;
-    color:LightGray;
+    color:white;
     
 }
 
@@ -176,4 +179,8 @@ text-decoration:underline;
 
 #profile {
   font-size:100;
+}
+
+#list_of_sales{
+  padding:10px
 }
